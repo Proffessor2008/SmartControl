@@ -1,0 +1,15 @@
+opencv-python==4.11.0.86
+cvzone==1.6.1
+ursina==7.0.0
+mediapipe==0.10.14
+numpy==2.2.4
+pyautogui==0.9.54
+customtkinter==5.2.2
+keyboard==0.13.5
+num2word==1.0.1
+vosk==0.3.45
+torch==2.5.0
+sounddevice==0.5.1
+silero==0.4.1
+transliterate==1.10.2
+SpeechRecognition==3.10.4
