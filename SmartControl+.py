@@ -24,7 +24,8 @@ try:
 except ImportError:
     print('Не все библиотеки установлены.')
     os.system(
-        'pip install num2word pyaudio vosk torch sounddevice keyboard silero numpy customtkinter gigachat transliterate num2words pathlib SpeechRecognition opencv-python'
+        'pip install num2word pyaudio vosk torch sounddevice keyboard silero numpy customtkinter gigachat '
+        'transliterate num2words pathlib SpeechRecognition opencv-python'
     )
 
 # Загрузка сохранённых данных
@@ -215,10 +216,6 @@ def run_ping():
     subprocess.run([sys.executable, "ping.py"])
 
 
-def mario():
-    subprocess.run([sys.executable, "F:\Abdulla\SmartControl\Smart\mario\main.py"])
-
-
 import subprocess
 import sys
 
@@ -303,8 +300,6 @@ with mic as source:
                     run_ping()
                 if 'кисть' in com_rec.lower():
                     paint()
-                if 'земля' in com_rec.lower():
-                    mario()
                 if 'жесты' in com_rec.lower():
                     smart()
                 if 'настройки' in com_rec.lower():
@@ -324,8 +319,6 @@ with mic as source:
                 run_ping()
             if 'кисть' in com_rec.lower():
                 paint()
-            if 'земля' in com_rec.lower():
-                mario()
             if 'жесты' in com_rec.lower():
                 smart()
             if 'настройки' in com_rec.lower():
